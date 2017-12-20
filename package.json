@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node index.js",
     "build": "webpack --config webpack.config.js -d --progress --colors",
     "build:watch": "webpack --config webpack.config.js -d --watch --progress --colors"
   },

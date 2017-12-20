@@ -1,0 +1,15 @@
+{
+  "name": "writing-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js -d --progress --colors",
+    "build:watch": "webpack --config webpack.config.js -d --watch --progress --colors"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "webpack": "^3.10.0"
+  }
+}
